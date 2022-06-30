@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 pyo3 = "0.16"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
